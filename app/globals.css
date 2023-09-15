@@ -12,3 +12,11 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-end-rgb));
 }
+
+.circle {
+	position: absolute;
+  border: solid 1px #ccc;
+	width: 60px; 
+	height: 60px; 
+  border-radius: 50%;  
+}
