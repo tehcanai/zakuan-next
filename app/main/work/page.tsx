@@ -17,10 +17,10 @@ export default function Page() {
   return (
     <Fade in={true} timeout={1000}>
       <main className={'flex flex-col items-left py-[200px] mx-10 md:mx-80'}>
-        <h2 className={'mb-3 font-black text-[50px] md:text-[80px] ${inter.variable}'}>
-          What I've Built
+        <h2 className={`mb-3 font-black text-[50px] md:text-[80px] ${inter.variable}`}>
+          What I Built
         </h2>
-        <h2 className={'mb-3 font-black text-[20px] md:text-[80px] ${inter.variable}'}>
+        <h2 className={`mb-3 font-black text-[50px] md:text-[50px] ${inter.variable}`}>
           MyWakalah
         </h2>
         
