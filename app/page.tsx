@@ -8,5 +8,5 @@ const inter = Inter({
 })
 
 export default function Page() {
-  redirect('/main/about')
+  redirect('/main/hero')
 }
