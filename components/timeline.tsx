@@ -4,7 +4,7 @@ function Chronology() {
   return (
     <Timeline active={3} bulletSize={24} lineWidth={2}>
       <Timeline.Item  title="UPM">
-        <Text color="dimmed" size="sm">Studied Computer Science Universiti Putra Malaysia, UPM for 4 years</Text>
+        <Text color="dimmed" size="sm">Studied Computer Science at Universiti Putra Malaysia, UPM for 4 years</Text>
         <Text size="xs" mt={4}>2019 - 2023</Text>
       </Timeline.Item>
 

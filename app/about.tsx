@@ -15,16 +15,16 @@ const inter = Inter({
 
 
 
-export default function Page() {
+export default function AboutSection() {
 
   return (
     <Fade in={true} timeout={1000}>
-      <main className={'flex flex-col items-left py-[200px] mx-10 md:mx-80'}>
+      <main className={'flex flex-col items-left  pt-20 md:pt-[200px] mx-10 md:mx-80'}>
         <h2 className={`mb-3 font-black text-[50px] md:text-[80px] ${inter.variable}`}>
-          About Me
+          Experience
         </h2>
         <Chronology/>
-        <a className='mt-10 underline' href="/resume.pdf">Resume</a>
+        <a className='mt-10 underline hover:text-white' style={{color:'rgb(0, 163, 255)'}} href="/resume.pdf">Resume</a>
       </main>
     </Fade>
   )

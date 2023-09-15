@@ -15,33 +15,36 @@ const inter = Inter({
 
 
 
-export default function Page() {
+export default function HeroSection() {
   
 
   return (
     <Fade in={true} timeout={1000}>
-      <main className={'flex flex-col items-left py-[150px] mx-10 md:mx-80'}>
-        <h2 className={`mb-3 font-black text-[50px] md:text-[80px] ${inter.variable}`}>
+      <main className={'flex flex-col items-left py-[200px] mx-10 md:mx-80'}>
+        <h2 className={`mb-3 font-black text-[50px] md:text-[140px] ${inter.variable}`}>
           Arif Zakuan
         </h2>
-        <p className={`text-3xl mb-5 ${inter.variable}`}>
-          Software Developer
-        </p>
-        <div className='flex flex-row items-left text-2xl'>
+        <div className='flex flex-col md:flex-row items-left md:space-x-8'>
+            <p className={`text-3xl ${inter.variable}`}>
+            Software Developer
+            </p>
+            <div className='flex flex-row items-left text-2xl md:text-3xl space-x-5'>
+            <SiJavascript />
+            <FaPython/>
+            <SiDart/>
+            <FaReact/>
+            <SiSvelte/>
+            <SiNextdotjs/>
+            <SiFlutter/>
+            </div>
+        </div>
+        
+        <div className='flex flex-row items-left text-2xl mt-10'>
           <a href="https://github.com/tehcanai" className='hover:text-white'>Github</a>
           <p style={{color: 'transparent'}}>•</p>
           <p>•</p>
           <p style={{color: 'transparent'}}>•</p>
           <a href="https://www.linkedin.com/in/arif-zakuan-99460820b/" className='hover:text-white'>LinkedIn</a>
-        </div>
-        <div className='flex flex-row items-left text-2xl mt-5 space-x-5'>
-          <SiJavascript />
-          <FaPython/>
-          <SiDart/>
-          <FaReact/>
-          <SiSvelte/>
-          <SiNextdotjs/>
-          <SiFlutter/>
         </div>
       </main>
     </Fade>
