@@ -8,6 +8,7 @@ import Cursor from '@/components/cursor';
 import { useMediaQuery } from '@mui/material';
 import WorkSection from './work';
 import FadeInSection from '@/components/fade_section.jsx';
+import ContactSection from './contact';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -30,6 +31,10 @@ export default function Page() {
 
       <FadeInSection>
         <WorkSection/>
+      </FadeInSection>
+
+      <FadeInSection>
+        <ContactSection/>
       </FadeInSection>
     </>
   );
