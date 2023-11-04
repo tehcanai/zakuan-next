@@ -34,14 +34,14 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-WZXG9XVR');`,
           }}
         />
-
+        {/* 
         <script 
           dangerouslySetInnerHTML={{
             __html:` window.$crisp=[];window.CRISP_WEBSITE_ID="9611a9a5-815a-4b56-9e97-fdabc2366204";
                      (function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";
                      s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`,
           }}
-        />
+        /> */}
         
       </head>
         <body className={inter.className}>
