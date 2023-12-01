@@ -21,7 +21,7 @@ export default function AboutSection() {
           Experience
         </h2>
         <Chronology/>
-        <a className='mt-10 underline hover:text-white' style={{color:'rgb(0, 163, 255)'}} href="/resume.pdf">Resume</a>
+        <a className='mt-10 underline hover:text-white' style={{color:'rgb(179,179,179)'}} href="/resume.pdf">Resume</a>
       </main>
     </Fade>
   )

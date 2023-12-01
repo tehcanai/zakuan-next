@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 245, 246, 250;
+  --foreground-rgb: 179,179,179;
+  --background-start-rgb: 33,33,33;
+  --background-end-rgb: 18, 18, 18;
 }
 
 body {
@@ -32,5 +32,10 @@ body {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+.mantine-Timeline-itemTitle {
+  color: rgb(var(--foreground-rgb));
+  font-weight: 700;
 }
 

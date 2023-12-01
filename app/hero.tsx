@@ -25,17 +25,17 @@ export default function HeroSection() {
           Arif Zakuan
         </h2>
         <div className='flex flex-col md:flex-row items-left md:space-x-8'>
-            <p className={`text-3xl ${inter.variable}`}>
+            <p className={`text-3xl ${inter.variable} pb-4 md:pb-0`}>
             Software Developer
             </p>
             <div className='flex flex-row items-left text-2xl md:text-3xl space-x-5'>
-            <SiJavascript />
-            <FaPython/>
-            <SiDart/>
-            <FaReact/>
-            <SiSvelte/>
-            <SiNextdotjs/>
-            <SiFlutter/>
+            <SiJavascript color='#f7df1e'/>
+            <FaPython color='#006a92'/>
+            <SiDart color='#12ace5'/>
+            <FaReact color='#12ace5'/>
+            <SiSvelte color='#ff7b00'/>
+            <SiNextdotjs color='white'/>
+            <SiFlutter color='#12ace5'/>
             </div>
         </div>
         

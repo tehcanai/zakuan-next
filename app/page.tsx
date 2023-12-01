@@ -27,14 +27,10 @@ export default function Page() {
 
       <FadeInSection>
         <AboutSection/>
-      </FadeInSection>
+      </FadeInSection> 
 
       <FadeInSection>
         <WorkSection/>
-      </FadeInSection>
-
-      <FadeInSection>
-        <ContactSection/>
       </FadeInSection>
     </>
   );
