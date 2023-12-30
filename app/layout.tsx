@@ -25,8 +25,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Arif Zakuan</title>
-
-        <GTMScript />
+        <script defer
+          src="https://unpkg.com/@tinybirdco/flock.js"
+          data-host="https://api.us-east.tinybird.co"
+          data-token="p.eyJ1IjogImI3OWIzMDRjLTI2MWMtNDcyMC04ZGRlLThiNWRhN2NjNGIyMyIsICJpZCI6ICI4YjFiM2YzOS1mNTU1LTQ3N2UtOGVlYi0wNmQyNTlkNjljMTkiLCAiaG9zdCI6ICJ1c19lYXN0In0.rj0v5tAbxC2BQ9cdO9yw1SKb2foMFFPeTWBMFijpsb0"
+        />
+        
         {/* 
         <script 
           dangerouslySetInnerHTML={{
