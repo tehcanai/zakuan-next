@@ -17,7 +17,7 @@ export default function CoverSection() {
 
   return (
     <Fade in={true} timeout={1000}>
-      <main className={'flex flex-col items-center  pt-20 pb-36 md:pt-[200px] mx-10 md:mx-80'}>
+      <main className={'flex flex-col items-center  pt-48 pb-36 md:pt-[200px] mx-10 md:mx-80'}>
         <Image
             src={CoverPic}
             width={500}
