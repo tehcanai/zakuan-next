@@ -55,10 +55,8 @@ export default function Page() {
         <PreContactSection/>
       </FadeInSection>
 
-      <FadeInSection>
         <HeroSection/>
         <ContactSection/>
-      </FadeInSection>
     </div>
     </>
   );
