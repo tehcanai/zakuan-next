@@ -13,7 +13,7 @@ export default function CoverSection() {
 
   return (
     <Fade in={true} timeout={1000}>
-      <main className={'flex flex-col self-stretch md:flex-row items-left  pt-48 pb-12 md:pt-[200px] mx-10 md:mx-80'}>
+      <main className={'flex flex-col self-stretch md:flex-row items-left pt-24 pb-12 md:pt-[200px] mx-10 md:mx-80'}>
         <div className='flex flex-col items-left '>
           <div className='underline decoration-1 underline-offset-2'>
             <h2 className={`mb-3 font-black text-[70px] md:text-[120px] overline decoration-1 underline-offset-8`}>
