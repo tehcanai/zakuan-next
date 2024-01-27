@@ -16,7 +16,7 @@ export default function CoverSection() {
       <main className={'flex flex-col self-stretch md:flex-row items-left  pt-48 pb-12 md:pt-[200px] mx-10 md:mx-80'}>
         <div className='flex flex-col items-left '>
           <div className='underline decoration-1 underline-offset-2'>
-            <h2 className={`mb-3 font-black text-[70px] md:text-[140px] overline decoration-1 underline-offset-8`}>
+            <h2 className={`mb-3 font-black text-[70px] md:text-[120px] overline decoration-1 underline-offset-8`}>
               Arif Zakuan
             </h2>
           </div>
