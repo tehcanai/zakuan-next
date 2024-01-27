@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Inter, Montserrat } from 'next/font/google'
 import { GeistMono } from 'geist/font/mono';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({
   subsets: ['latin'],
@@ -34,6 +35,7 @@ export default function RootLayout({
         <body className={GeistMono.className}>
           {children}
           <Analytics/>
+          <SpeedInsights/>
         </body>
     </html>
 
