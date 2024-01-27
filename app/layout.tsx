@@ -2,8 +2,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Montserrat } from 'next/font/google'
-import React, { useState, useEffect } from 'react';
 import { GeistMono } from 'geist/font/mono';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -30,30 +30,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Arif Zakuan</title>
-        <script defer
-          src="https://unpkg.com/@tinybirdco/flock.js"
-          data-host="https://api.us-east.tinybird.co"
-          data-token="p.eyJ1IjogImI3OWIzMDRjLTI2MWMtNDcyMC04ZGRlLThiNWRhN2NjNGIyMyIsICJpZCI6ICI4YjFiM2YzOS1mNTU1LTQ3N2UtOGVlYi0wNmQyNTlkNjljMTkiLCAiaG9zdCI6ICJ1c19lYXN0In0.rj0v5tAbxC2BQ9cdO9yw1SKb2foMFFPeTWBMFijpsb0"
-        />
-        
-        {/* 
-        <script 
-          dangerouslySetInnerHTML={{
-            __html:` window.$crisp=[];window.CRISP_WEBSITE_ID="9611a9a5-815a-4b56-9e97-fdabc2366204";
-                     (function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";
-                     s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`,
-          }}
-        /> */}
-        
       </head>
         <body className={GeistMono.className}>
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZXG9XVR"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
           {children}
+          <Analytics/>
         </body>
     </html>
 
