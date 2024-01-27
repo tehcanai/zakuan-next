@@ -1,12 +1,18 @@
 
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Montserrat } from 'next/font/google'
 import React, { useState, useEffect } from 'react';
+import { GeistMono } from 'geist/font/mono';
 
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
+})
+
+const mons = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat'
 })
 
 export const metadata: Metadata = {
@@ -40,7 +46,7 @@ export default function RootLayout({
         /> */}
         
       </head>
-        <body className={inter.className}>
+        <body className={GeistMono.className}>
         <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZXG9XVR"

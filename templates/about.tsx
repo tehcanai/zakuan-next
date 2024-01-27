@@ -17,7 +17,7 @@ export default function AboutSection() {
   return (
     <div>
       <Fade in={true} timeout={1000}>
-        <main className={'flex flex-col items-left  pt-20 pb-36 md:pt-[200px] mx-10 md:mx-80'}>
+        <main className={'flex flex-col justify-end self-end items-right  pt-20 pb-36 md:pt-[200px] mx-10 md:mx-80'}>
           <Chronology/>
           <a className='mt-10 underline hover:text-white' style={{color:'rgb(179,179,179)'}} href="/resume.pdf">Resume</a>
         </main>
