@@ -26,12 +26,12 @@ export default function CoverSection() {
                 dev@ikhlas.com
               </p>
             <div className='flex flex-row space-x-5'>
-              <SiJavascript color='black' alt='javascript'/>
-              <FaPython color='black'/>
-              <SiDart color='black'/>
-              <FaReact color='black'/>
-              <SiNextdotjs color='black'/>
-              <SiFlutter color='black'/>
+              <SiJavascript color='#0E1111' alt='javascript'/>
+              <FaPython color='#0E1111'/>
+              <SiDart color='#0E1111'/>
+              <FaReact color='#0E1111'/>
+              <SiNextdotjs color='#0E1111'/>
+              <SiFlutter color='#0E1111'/>
             </div>
             </div>
               <p className={`text-2xl pb-4 md:pb-4 `}>

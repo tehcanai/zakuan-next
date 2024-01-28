@@ -34,7 +34,7 @@ export default function Page() {
     <div id="light">
       {/* <MenuBar /> */}
       <Fade in={true} timeout={1000}>
-      <main className={'h-full lg:h-screen flex flex-col self-stretch items-left pt-24 pb-12 md:pt-[100px] mx-10 lg:mx-40 xl:mx-80 space-y-4'}>
+      <main className={'flex flex-col self-stretch items-left pt-24 pb-12 md:pt-[100px] mx-10 lg:mx-40 xl:mx-80 space-y-4'}>
         <Link className='hover:text-stone-700' href="/" prefetch={true}>{backText}</Link>
         <Divider className='bg-white opacity-50'></Divider>
         <div className='flex flex-col lg:flex-row'>
