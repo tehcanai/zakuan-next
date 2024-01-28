@@ -20,7 +20,7 @@ export default function Page() {
   
   return (
     <>
-    <div className='flex flex-col justify-center'>
+    <div className='h-full lg:h-screen flex flex-col justify-center'>
         <CoverSection/>
     </div>
     </>

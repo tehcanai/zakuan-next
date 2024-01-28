@@ -9,8 +9,8 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-end-rgb));
+  color: #0E1111;
+  background: #FAF9F6;
 }
 
 .circle {

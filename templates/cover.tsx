@@ -26,22 +26,22 @@ export default function CoverSection() {
                 dev@ikhlas.com
               </p>
             <div className='flex flex-row space-x-5'>
-              <SiJavascript color='white' alt='javascript'/>
-              <FaPython color='white'/>
-              <SiDart color='white'/>
-              <FaReact color='white'/>
-              <SiNextdotjs color='white'/>
-              <SiFlutter color='white'/>
+              <SiJavascript color='black' alt='javascript'/>
+              <FaPython color='black'/>
+              <SiDart color='black'/>
+              <FaReact color='black'/>
+              <SiNextdotjs color='black'/>
+              <SiFlutter color='black'/>
             </div>
             </div>
               <p className={`text-2xl pb-4 md:pb-4 `}>
-                prev. built <a href="https://apps.apple.com/my/app/mywakalah/id1544712828" target="_blank" rel="noopener noreferrer" className='hover:text-white underline'>MyWakalah</a> app
+                prev. built <a href="https://apps.apple.com/my/app/mywakalah/id1544712828" target="_blank" rel="noopener noreferrer" className='hover:text-stone-700 underline'>MyWakalah</a> app
               </p>
             <div className='flex flex-wrap md:self-end underline text-xl md:text-2xl'>
-              <a className='underline hover:text-white pr-3' target="_blank" rel="noopener noreferrer" href="/resume.pdf">Resume</a>
-              <a href="https://github.com/tehcanai" target="_blank" rel="noopener noreferrer" className='hover:text-white pr-3'>Github</a>
-              <a href="https://www.linkedin.com/in/arif-zakuan-99460820b/" target="_blank" rel="noopener noreferrer" className='hover:text-white pr-3'>LinkedIn</a>
-              <Link className='underline hover:text-white' href="/blog" prefetch={true}>Blog</Link>
+              <a className='underline hover:text-stone-700 pr-3' target="_blank" rel="noopener noreferrer" href="/resume.pdf">Resume</a>
+              <a href="https://github.com/tehcanai" target="_blank" rel="noopener noreferrer" className='hover:text-stone-700 pr-3'>Github</a>
+              <a href="https://www.linkedin.com/in/arif-zakuan-99460820b/" target="_blank" rel="noopener noreferrer" className='hover:text-stone-700 pr-3'>LinkedIn</a>
+              <Link className='underline hover:text-stone-700' href="/blog" prefetch={true}>Blog</Link>
             </div>
         </div>
       </main>

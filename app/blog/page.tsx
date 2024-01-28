@@ -1,6 +1,7 @@
 
 "use client"
 
+import MenuBar from '@/components/menubar';
 import { Divider, Fade, useMediaQuery } from '@mui/material';
 import { blue } from '@mui/material/colors';
 import Link from 'next/link';
@@ -30,14 +31,16 @@ export default function Page() {
   }
   
   return (
-    <Fade in={true} timeout={1000}>
-      <main className={'flex flex-col self-stretch items-left pt-24 pb-12 md:pt-[100px] mx-10 lg:mx-40 xl:mx-80 space-y-4'}>
-        <Link className='hover:text-white' href="/" prefetch={true}>{backText}</Link>
+    <div id="light">
+      {/* <MenuBar /> */}
+      <Fade in={true} timeout={1000}>
+      <main className={'h-full lg:h-screen flex flex-col self-stretch items-left pt-24 pb-12 md:pt-[100px] mx-10 lg:mx-40 xl:mx-80 space-y-4'}>
+        <Link className='hover:text-stone-700' href="/" prefetch={true}>{backText}</Link>
         <Divider className='bg-white opacity-50'></Divider>
         <div className='flex flex-col lg:flex-row'>
           <div className='flex flex-row lg:flex-col space-x-4 lg:space-x-0'>
-            <button className='hover:text-white underline text-left' onClick={() => handlePage(1)}>Blue</button>
-            <button className='hover:text-white underline text-left' onClick={() => handlePage(2)}>Woe</button>
+            <button className='hover:text-stone-700 underline text-left' onClick={() => handlePage(1)}>Blue</button>
+            <button className='hover:text-stone-700 underline text-left' onClick={() => handlePage(2)}>Woe</button>
           </div>
           {media ?
             <Divider className='bg-white mx-8 opacity-50' orientation='vertical' flexItem={true}></Divider> :
@@ -49,5 +52,6 @@ export default function Page() {
         </div>
       </main>
     </Fade>
+    </div>
   );
 }
