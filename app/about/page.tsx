@@ -25,7 +25,7 @@ export default function Page() {
             height={200}
             placeholder='blur'
           />
-          <div className='pt-4 lg:pt-0'>
+          <div className='pt-4 pb-24 lg:pt-0'>
             <p className=' text-gray-900 font-bold py-2'>Persona</p>
             <p className=' text-gray-700 font-light py-2 '>
               Hi, I&apos;m Arif Zakuan. I&apos;m a software developer based in Malaysia. I&apos;m currently working with react, typescript, and dart for work and personal projects and learning new things as I go along.

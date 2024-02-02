@@ -17,6 +17,7 @@ export default function Page() {
         <div className='flex flex-wrap items-center gap-x-4 mt-8 gap-y-16 first:px-4 first:py-4'>
           <GalleryCard
           title='SoalUndi'
+          description='Chatbot that answers your questions about the Malaysian election'
           image='/work/soalunid-portfolio.PNG'
           alt='soal undi '
           githubLink=''

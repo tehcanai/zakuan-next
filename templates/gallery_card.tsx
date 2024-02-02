@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 interface GalleryCardPropsType {
     title: string
+    description: string
     image: string
     alt: string
     githubLink?: string
@@ -14,7 +15,8 @@ const GalleryCard: React.FC<GalleryCardPropsType> = (props) => {
     
     return (
         <div className='flex flex-col justify-center items-center'>
-            <p className='text-3xl lg:text-5xl font-bold pb-8'>{props.title}</p>
+            <p className='text-3xl lg:text-5xl font-bold pb-4'>{props.title}</p>
+            <p className='text-md lg:text-lg text-center text-gray-500 font-light pb-8'>{props.description}</p>
             <Image
                 className="rounded-lg shadow-lg"
                 src={props.image}
