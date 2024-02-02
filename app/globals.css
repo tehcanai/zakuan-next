@@ -34,8 +34,4 @@ body {
   visibility: visible;
 }
 
-.mantine-Timeline-itemTitle {
-  color: rgb(var(--foreground-rgb));
-  font-weight: 700;
-}
 
