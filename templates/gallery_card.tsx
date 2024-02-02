@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaApple, FaAndroid } from "react-icons/fa";
 
 interface GalleryCardPropsType {
     title: string
@@ -7,11 +7,13 @@ interface GalleryCardPropsType {
     image: string
     alt: string
     githubLink?: string
+    appleStoreLink?: string
+    googlePlayLink?: string
 }
   
 const GalleryCard: React.FC<GalleryCardPropsType> = (props) => {
 
-    const { title, image, githubLink } = props
+    const { title, image, githubLink, appleStoreLink, googlePlayLink } = props
     
     return (
         <div className='flex flex-col justify-center items-center'>
@@ -25,10 +27,21 @@ const GalleryCard: React.FC<GalleryCardPropsType> = (props) => {
                 height={800}
                 quality={100}
             />
-            <div className='flex flex-wrap py-8'>
+            <div className='flex flex-wrap py-8 gap-x-8'>
                 {githubLink != undefined && 
-                    <a href="https://github.com/tehcanai/SoalUndi" target="_blank" rel="noopener noreferrer">
+                    <a href={githubLink} target="_blank" rel="noopener noreferrer">
                     <FaGithub className="text-3xl lg:text-5xl"/>
+                    </a>
+                }
+                {appleStoreLink != undefined &&
+                    <a href={appleStoreLink} target="_blank" rel="noopener noreferrer">
+                    <FaApple className="text-3xl lg:text-5xl"/>
+                    </a>
+
+                }
+                {googlePlayLink!= undefined &&
+                    <a href={googlePlayLink} target="_blank" rel="noopener noreferrer">
+                    <FaAndroid className="text-3xl lg:text-5xl"/>
                     </a>
                 }
             </div>
