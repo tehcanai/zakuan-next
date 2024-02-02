@@ -10,7 +10,7 @@ export default function Page() {
     <main className="flex min-h-screen flex-col items-center p-10 mx-5 lg:mx-40 xl:mx-80">
       <p className='font-bold text-3xl py-4'>Kerja</p>
       <p className='text-center font-light text-gray-700 text-lg'>
-        A collection of stuff I've built
+        A collection of stuff I&apos;ve built
       </p>
       <Divider className='bg-white opacity-50 my-4' flexItem={true}></Divider>
       <div className="z-10 w-full max-w-5xl justify-between font-mono text-sm lg:flex flex-col">
