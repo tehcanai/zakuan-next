@@ -30,18 +30,18 @@ const GalleryCard: React.FC<GalleryCardPropsType> = (props) => {
             <div className='flex flex-wrap py-8 gap-x-8'>
                 {githubLink != undefined && 
                     <a href={githubLink} target="_blank" rel="noopener noreferrer">
-                    <FaGithub className="text-3xl lg:text-5xl"/>
+                    <FaGithub className="text-xl lg:text-3xl"/>
                     </a>
                 }
                 {appleStoreLink != undefined &&
                     <a href={appleStoreLink} target="_blank" rel="noopener noreferrer">
-                    <FaApple className="text-3xl lg:text-5xl"/>
+                    <FaApple className="text-xl lg:text-3xl"/>
                     </a>
 
                 }
                 {googlePlayLink!= undefined &&
                     <a href={googlePlayLink} target="_blank" rel="noopener noreferrer">
-                    <FaAndroid className="text-3xl lg:text-5xl"/>
+                    <FaAndroid className="text-xl lg:text-3xl"/>
                     </a>
                 }
             </div>
